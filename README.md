@@ -1,7 +1,25 @@
 undupervisedML1
 ==============================
 
-learningUnsupervisedMl
+## learningSupervisedMl
+
+Predicting credit card fraud. Adressing imbalanced target class with weights. Optimizing models with recall score with (logisticRegression, XGBM, LGBM, RandomForest). Achieving best result with logisticRegression ( recall score ~ 86% on test set)
+
+## Requirements
+
+1. run the following commands to set up virutal environment and download data:
+
+> make create_environment
+
+> make data
+
+2. run the following commands to train and evaluate models:
+
+> make train
+
+> make evaluate
+
+Or you can follow the notebooks
 
 Project Organization
 ------------
